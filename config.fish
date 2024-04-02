@@ -193,6 +193,9 @@ alias jctl="journalctl -p 3 -xb"
 # Recent installed packages
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 
+# Spring
+alias spring="java -jar $HOME/.local/bin/spring-cli-0.9.0-SNAPSHOT.jar"
+
 # Youtubedl
 abbr -a yt  'yt-dlp -o "%(title)s.%(ext)s" -f b --embed-chapters'
 abbr -a yta 'yt-dlp -o "%(autonumber)s-%(title)s.%(ext)s" -f b --embed-chapters'
